@@ -3,9 +3,9 @@ import { Box, Typography, Grid, Card, CardMedia, CardContent, Button } from '@mu
 import cocoChips from '../assets/coco_chips.jpg';
 import cocoPeat from '../assets/coco_peat.jpg';
 import cocoMix from '../assets/coco_mix.jpg';
-import growBag from '../assets/grow_bag.jpg';
+import growBag from '../assets/grow_bag.jpg'; // Add images for the new products
 import coinDisc from '../assets/coin_disc.jpg';
-import coin from '../assets/coin.jpg';
+
 const products = [
   {
     name: '100% Coco Chips',
@@ -35,7 +35,7 @@ const products = [
   {
     name: 'Coco Coins & Discs',
     description: 'Ideal for propagation and rooting with superior quality.',
-    image: coin,
+    image: cocoChips,
   },
 ];
 

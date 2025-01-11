@@ -9,6 +9,8 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
+import DesignedBy from './components/DesignedBy';
+import ContactUsDirectly from './components/ContactUsDirectly';
 const App = () => {
   return (
     <>
@@ -22,6 +24,8 @@ const App = () => {
         <Testimonials />
         <FAQ />
         <ContactUs/>
+        <ContactUsDirectly/>
+        <DesignedBy/>
       </Container>
       <Footer />
     </>

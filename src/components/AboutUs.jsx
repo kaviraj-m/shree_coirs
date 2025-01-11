@@ -24,6 +24,7 @@ const AboutUs = () => {
         background: 'linear-gradient(to bottom right, #e8f5e9, #e3f2fd)',
         py: 10,
         px: { xs: 3, sm: 6, md: 10 },
+        marginTop: 5,
       }}
     >
       <Typography
