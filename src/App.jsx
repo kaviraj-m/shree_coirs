@@ -11,30 +11,26 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import DesignedBy from './components/DesignedBy';
 import ContactUsDirectly from './components/ContactUsDirectly';
-import BIRDS from 'vanta/dist/vanta.birds.min'; 
-import * as THREE from 'three'; 
+import NET from 'vanta/dist/vanta.net.min';  
+import * as THREE from 'three';
 
 const App = () => {
   const vantaRef = useRef(null); 
   const vantaEffect = useRef(null); 
 
   useEffect(() => {
-    
-    vantaEffect.current = BIRDS({
+    vantaEffect.current = NET({
       el: vantaRef.current,
       THREE, 
       backgroundColor: 0xffffff, 
-      color1: 0x000000, 
-      color2: 0x000000, 
-      birdSize: 0.5, 
-      speedLimit: 1, 
-      separation: 50, 
-      alignment: 50, 
-      cohesion: 50, 
+      color: 0x000000, 
+      points: 10, 
+      maxDistance: 40, 
+      spacing: 20,
+      showDots: false,
     });
 
     return () => {
-      
       if (vantaEffect.current) vantaEffect.current.destroy();
     };
   }, []);
@@ -42,20 +38,44 @@ const App = () => {
   return (
     <>
       <CssBaseline />
-      <div ref={vantaRef} className="app-container" style={{ minHeight: '100vh' }}>
-        <Header />
-        <Hero />
-        <Container maxWidth="lg">
-          <AboutUs />
-          <Products />
-          <Features />
-          <Testimonials />
-          <FAQ />
-          <ContactUs />
-          <ContactUsDirectly />
-          <DesignedBy />
-        </Container>
-        <Footer />
+      <div
+        ref={vantaRef}
+        className="app-container"
+        style={{
+          minHeight: '100vh',
+          position: 'relative', 
+        }}
+      >
+        
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'rgba(255, 255, 255, 0.5)', 
+            backdropFilter: 'blur(3px)', 
+            zIndex: 1, 
+          }}
+        />
+        
+       
+        <div style={{ position: 'relative', zIndex: 2 }}>
+          <Header />
+          <Hero />
+          <Container maxWidth="lg">
+            <AboutUs />
+            <Products />
+            <Features />
+            <Testimonials />
+            <FAQ />
+            <ContactUs />
+            <ContactUsDirectly />
+            <DesignedBy />
+          </Container>
+          <Footer />
+        </div>
       </div>
     </>
   );

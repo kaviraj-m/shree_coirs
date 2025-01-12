@@ -51,7 +51,7 @@ const ContactUs = () => {
     <Box
       id="contactus"
       sx={{
-        bgcolor: 'white',
+        bgcolor: 'transparent', 
         py: 6,
         fontFamily: 'Roboto, sans-serif',
         display: 'flex',
@@ -62,7 +62,7 @@ const ContactUs = () => {
       <Container maxWidth="md">
         <Box
           sx={{
-            bgcolor: '#ffffff',
+            bgcolor: 'rgba(255, 255, 255, 0.8)', 
             p: { xs: 4, sm: 6 },
             borderRadius: '12px',
             boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
