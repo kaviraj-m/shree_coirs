@@ -29,6 +29,7 @@ const Hero = () => {
         backgroundColor: 0xffffff,
         cloudColor: 0xadd8e6,
         speed: 1.5,
+        vertexColors: false,
       });
     }
     return () => {

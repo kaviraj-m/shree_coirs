@@ -41,11 +41,19 @@ const products = [
 
 const Products = () => {
   return (
-    <Box id="products" sx={{ my: 8, backgroundColor: '#ffffff', py: 6 }}> 
-      <Typography variant="h4" gutterBottom textAlign="center" sx={{ color: '#388e3c', fontWeight: 'bold' }}>
+    <Box id="products" sx={{ my: 8, backgroundColor: 'transparent', py: 6 }}> 
+      <Typography
+        variant="h4"
+        gutterBottom
+        textAlign="center"
+        sx={{ color: '#388e3c', fontWeight: 'bold' }}
+      >
         Our Products
       </Typography>
-      <Typography variant="body1" sx={{ textAlign: 'center', color: '#616161', mb: 4 }}>
+      <Typography
+        variant="body1"
+        sx={{ textAlign: 'center', color: '#616161', mb: 4 }}
+      >
         Discover a range of sustainable and high-quality coco products to support your agriculture needs.
       </Typography>
       <Grid container spacing={4}>
@@ -70,10 +78,17 @@ const Products = () => {
                 sx={{ borderTopLeftRadius: '12px', borderTopRightRadius: '12px' }}
               />
               <CardContent>
-                <Typography variant="h6" sx={{ fontWeight: 'bold', mb: 1, color: '#388e3c' }}>
+                <Typography
+                  variant="h6"
+                  sx={{ fontWeight: 'bold', mb: 1, color: '#388e3c' }}
+                >
                   {product.name}
                 </Typography>
-                <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
+                <Typography
+                  variant="body2"
+                  color="textSecondary"
+                  sx={{ mb: 2 }}
+                >
                   {product.description}
                 </Typography>
                 <Button

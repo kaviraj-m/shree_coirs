@@ -4,21 +4,24 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.3.1",
     "@mui/material": "^6.3.1",
+    "@react-three/drei": "^9.120.8",
+    "@react-three/fiber": "^8.17.12",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.17.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "three": "^0.172.0",
+    "three": "^0.124.0",
     "vanta": "^0.5.24"
   },
   "devDependencies": {
