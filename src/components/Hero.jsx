@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Box, Typography, Button, Grid } from '@mui/material';
 import heroImage from '../assets/hero.jpg';
 import { keyframes } from '@mui/system';
+import CLOUDS from 'vanta/dist/vanta.clouds.min';
+import * as THREE from 'three';
 
 const fadeIn = keyframes`
   from {
-    opacity: 0;
+    opacity: 0.5;
     transform: translateY(20px);
   }
   to {
@@ -15,18 +17,47 @@ const fadeIn = keyframes`
 `;
 
 const Hero = () => {
+  const vantaRef = useRef(null);
+
+  useEffect(() => {
+    let vantaEffect;
+    if (vantaRef.current) {
+      vantaEffect = CLOUDS({
+        el: vantaRef.current,
+        THREE,
+        color: 0x87ceeb,
+        backgroundColor: 0xffffff,
+        cloudColor: 0xadd8e6,
+        speed: 1.5,
+      });
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, []);
+
   return (
     <Box
+      ref={vantaRef}
       sx={{
-        background: 'linear-gradient(to bottom right, #e8f5e9, #ffe0b2)',
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        position: 'relative',
         padding: { xs: '16px', sm: '32px', md: '64px' },
       }}
     >
-      <Grid container spacing={4} alignItems="center">
+      <Grid
+        container
+        spacing={4}
+        alignItems="center"
+        sx={{
+          position: 'relative',
+          zIndex: 1,
+          textAlign: { xs: 'center', md: 'left' },
+        }}
+      >
         <Grid
           item
           xs={12}
@@ -35,6 +66,7 @@ const Hero = () => {
             display: 'flex',
             justifyContent: 'center',
             animation: `${fadeIn} 1.5s ease-out`,
+            order: { xs: 2, md: 1 },
           }}
         >
           <Box
@@ -43,9 +75,9 @@ const Hero = () => {
             alt="Shree Coirs Products"
             sx={{
               width: '100%',
-              maxWidth: '500px',
-              borderRadius: '12px',
-              boxShadow: '0px 12px 24px rgba(0, 0, 0, 0.3)',
+              maxWidth: { xs: '350px', sm: '500px', md: '600px' },
+              borderRadius: '16px',
+              boxShadow: '0px 16px 32px rgba(0, 0, 0, 0.4)',
             }}
           />
         </Grid>
@@ -55,14 +87,14 @@ const Hero = () => {
           xs={12}
           md={6}
           sx={{
-            textAlign: { xs: 'center', md: 'left' },
             animation: `${fadeIn} 2s ease-out`,
+            order: { xs: 1, md: 2 },
           }}
         >
           <Typography
             variant="h2"
             sx={{
-              fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem' },
+              fontSize: { xs: '2rem', sm: '2.5rem', md: '3.5rem' },
               fontWeight: 'bold',
               mb: 3,
               color: '#2e2e2e',
@@ -110,3 +142,4 @@ const Hero = () => {
 };
 
 export default Hero;
+ 

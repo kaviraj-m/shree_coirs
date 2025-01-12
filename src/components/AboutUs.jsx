@@ -21,7 +21,7 @@ const AboutUs = () => {
     <Box
       id="about"
       sx={{
-        background: 'linear-gradient(to bottom right, #e8f5e9, #e3f2fd)',
+        backgroundColor: 'transparent', 
         py: 10,
         px: { xs: 3, sm: 6, md: 10 },
         marginTop: 5,
@@ -64,7 +64,7 @@ const AboutUs = () => {
             sx={{
               textAlign: 'center',
               p: 4,
-              backgroundColor: 'rgba(255, 255, 255, 0.8)',
+              backgroundColor: 'rgba(255, 255, 255, 0.8)', 
               borderRadius: '12px',
               boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.1)',
               animation: `${fadeIn} 1.8s ease-out`,
@@ -104,7 +104,7 @@ const AboutUs = () => {
             sx={{
               textAlign: 'center',
               p: 4,
-              backgroundColor: 'rgba(255, 255, 255, 0.8)',
+              backgroundColor: 'rgba(255, 255, 255, 0.8)', 
               borderRadius: '12px',
               boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.1)',
               animation: `${fadeIn} 2.1s ease-out`,
@@ -144,7 +144,7 @@ const AboutUs = () => {
             sx={{
               textAlign: 'center',
               p: 4,
-              backgroundColor: 'rgba(255, 255, 255, 0.8)',
+              backgroundColor: 'rgba(255, 255, 255, 0.8)', 
               borderRadius: '12px',
               boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.1)',
               animation: `${fadeIn} 2.4s ease-out`,

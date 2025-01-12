@@ -3,7 +3,7 @@ import { Box, Typography, Grid, Card, CardMedia, CardContent, Button } from '@mu
 import cocoChips from '../assets/coco_chips.jpg';
 import cocoPeat from '../assets/coco_peat.jpg';
 import cocoMix from '../assets/coco_mix.jpg';
-import growBag from '../assets/grow_bag.jpg'; // Add images for the new products
+import growBag from '../assets/grow_bag.jpg';
 import coinDisc from '../assets/coin_disc.jpg';
 
 const products = [
@@ -41,7 +41,7 @@ const products = [
 
 const Products = () => {
   return (
-    <Box id="products" sx={{ my: 8, backgroundColor: '#f3f7f3', py: 6 }}>
+    <Box id="products" sx={{ my: 8, backgroundColor: '#ffffff', py: 6 }}> 
       <Typography variant="h4" gutterBottom textAlign="center" sx={{ color: '#388e3c', fontWeight: 'bold' }}>
         Our Products
       </Typography>

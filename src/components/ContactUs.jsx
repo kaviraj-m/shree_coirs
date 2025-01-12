@@ -51,7 +51,7 @@ const ContactUs = () => {
     <Box
       id="contactus"
       sx={{
-        bgcolor: '#f5f5f5',
+        bgcolor: 'white',
         py: 6,
         fontFamily: 'Roboto, sans-serif',
         display: 'flex',

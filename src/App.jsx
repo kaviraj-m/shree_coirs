@@ -11,23 +11,26 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import DesignedBy from './components/DesignedBy';
 import ContactUsDirectly from './components/ContactUsDirectly';
+
 const App = () => {
   return (
     <>
       <CssBaseline />
-      <Header />
-      <Hero />
-      <Container maxWidth="lg">
-      <AboutUs />
-        <Products />
-        <Features />
-        <Testimonials />
-        <FAQ />
-        <ContactUs/>
-        <ContactUsDirectly/>
-        <DesignedBy/>
-      </Container>
-      <Footer />
+      <div className="app-container">
+        <Header />
+        <Hero />
+        <Container maxWidth="lg">
+          <AboutUs />
+          <Products />
+          <Features />
+          <Testimonials />
+          <FAQ />
+          <ContactUs />
+          <ContactUsDirectly />
+          <DesignedBy />
+        </Container>
+        <Footer />
+      </div>
     </>
   );
 };

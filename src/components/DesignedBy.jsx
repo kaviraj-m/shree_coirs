@@ -13,7 +13,7 @@ const DesignedBy = () => {
         backgroundColor: '#ffffff',
         boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.05)',
         borderRadius: '12px',
-        maxWidth: '400px', 
+        maxWidth: '600px', 
         mx: 'auto',
       }}
     >
@@ -34,7 +34,7 @@ const DesignedBy = () => {
         src={designLogo}
         alt="Design Logo"
         sx={{
-          width: '180px', 
+          width: { xs: '220px', sm: '260px', md: '300px' }, 
           height: 'auto',
           mx: 'auto',
           opacity: 0.95,
@@ -47,9 +47,9 @@ const DesignedBy = () => {
           mt: 2,
           color: '#666',
           lineHeight: 1.6,
-          maxWidth: '350px',
+          maxWidth: '500px',
           mx: 'auto',
-          fontSize: '0.875rem', 
+          fontSize: '1rem', 
         }}
       >
         Creating innovative and user-centered designs that align with modern
