@@ -5,6 +5,11 @@ import cocoPeat from '../assets/coco_peat.jpg';
 import cocoMix from '../assets/coco_mix.jpg';
 import growBag from '../assets/grow_bag.jpg';
 import coinDisc from '../assets/coin_disc.jpg';
+import growSlab from '../assets/grow_slab.jpg';
+import coirPithBricks from '../assets/coir_pith_bricks.jpg';
+import coirPithBale from '../assets/coir_pith_bale.jpg';
+import coconutHuskChips from '../assets/coconut_husk_chips.jpg';
+import fibreBaling from '../assets/fibre_baling.jpg';
 
 const products = [
   {
@@ -42,6 +47,36 @@ const products = [
     description: 'Ideal for propagation and rooting with superior quality.',
     moreInfo: 'Perfect for nurseries and home gardening, coco coins and discs are easy to use and promote strong root development.',
     image: cocoChips,
+  },
+  {
+    name: 'Grow Slab',
+    description: 'Optimal for hydroponic and soil-based farming.',
+    moreInfo: 'Grow slabs provide a controlled medium for plant growth, ensuring better yield and ease of use.',
+    image: growSlab,
+  },
+  {
+    name: '650 Gms Coir Pith Bricks',
+    description: 'Compact bricks for convenient use.',
+    moreInfo: 'These lightweight coir pith bricks are perfect for small-scale gardening, offering high water retention and nutrient absorption.',
+    image: coirPithBricks,
+  },
+  {
+    name: '25Kg Coir-Pith Bale',
+    description: 'Bulk coir-pith bale for large-scale use.',
+    moreInfo: 'A sustainable solution for farms and nurseries, providing excellent soil conditioning and moisture retention.',
+    image: coirPithBale,
+  },
+  {
+    name: 'Green Coconut Husk Chips',
+    description: 'Natural chips for soil aeration and mulch.',
+    moreInfo: 'Perfect for decorative mulch or plant support, green coconut husk chips enhance soil aeration and moisture levels.',
+    image: coconutHuskChips,
+  },
+  {
+    name: '120Kg Fibre Baling',
+    description: 'High-quality fibre bales for industrial and agricultural use.',
+    moreInfo: 'Processed to perfection, our fibre baling ensures durability and versatility for various applications.',
+    image: fibreBaling,
   },
 ];
 
