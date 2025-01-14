@@ -16,7 +16,7 @@ const Footer = () => {
       }}
     >
       <Grid container spacing={5} justifyContent="center">
-        {/* Company Info Section */}
+   
         <Grid item xs={12} sm={6} md={4}>
           <Typography
             variant="h4"
@@ -38,7 +38,7 @@ const Footer = () => {
           </Box>
         </Grid>
 
-        {/* Social Media Section */}
+       
         <Grid item xs={12} sm={6} md={4}>
           <Typography
             variant="h4"
@@ -104,7 +104,7 @@ const Footer = () => {
 
       <Divider sx={{ my: 4, backgroundColor: '#4caf50' }} />
 
-      {/* Footer Bottom Section */}
+      
       <Box sx={{ mt: 3 }}>
         <Typography
           variant="body2"
