@@ -1,6 +1,7 @@
-import React from 'react';
-import { Grid, Paper, Typography, Box } from '@mui/material';
-import { Phone, Email } from '@mui/icons-material';
+import React from 'react'; 
+import { Grid, Paper, Typography, Box, Button } from '@mui/material';
+import { Phone, Email, LocationOn } from '@mui/icons-material';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const ContactUsDirectly = () => {
   return (
@@ -12,7 +13,7 @@ const ContactUsDirectly = () => {
         boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.1)',
         maxWidth: 600,
         margin: 'auto',
-        marginTop: 4, 
+        marginTop: 4,
       }}
     >
       <Typography
@@ -20,7 +21,7 @@ const ContactUsDirectly = () => {
         sx={{
           mb: 4,
           fontWeight: 'bold',
-          color: '#202124', 
+          color: '#202124',
           textAlign: 'center',
         }}
       >
@@ -96,6 +97,51 @@ const ContactUsDirectly = () => {
               shreecoirs07@gmail.com
             </Typography>
           </Paper>
+        </Grid>
+
+        <Grid item xs={12}>
+          <Button
+            variant="contained"
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 1,
+              backgroundColor: '#1e88e5',
+              color: '#ffffff',
+              textTransform: 'none',
+              '&:hover': {
+                backgroundColor: '#1565c0',
+              },
+              padding: '12px 16px',
+              borderRadius: '8px',
+            }}
+            href="https://maps.app.goo.gl/quyFJJe1B66X3Vp7A"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LocationOn />
+            View Location
+          </Button>
+        </Grid>
+
+        <Grid item xs={12}>
+          <Button
+            variant="contained"
+            startIcon={<WhatsAppIcon />}
+            sx={{
+              backgroundColor: '#25D366',
+              '&:hover': { backgroundColor: '#1da851' },
+              color: '#ffffff',
+              textTransform: 'none',
+              width: '100%',
+              padding: '10px 16px',
+            }}
+            href="https://wa.me/917373046699?text=நான்%20உங்கள்%20இணையதளத்தை%20பார்த்தேன்."
+            target="_blank"
+          >
+            Message Us on WhatsApp
+          </Button>
         </Grid>
       </Grid>
     </Box>
