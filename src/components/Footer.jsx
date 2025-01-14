@@ -56,7 +56,7 @@ const Footer = () => {
               <Facebook />
             </IconButton>
             <IconButton
-              href="https://instagram.com"
+              href="https://www.instagram.com/shreecoirs?igsh=ZDI5b3R6eTdzdHhr"
               target="_blank"
               color="inherit"
               sx={{ '&:hover': { color: '#e4405f' } }}
@@ -82,7 +82,6 @@ const Footer = () => {
           </Box>
         </Grid>
 
-        {/* Address Section */}
         <Grid item xs={12} sm={6} md={4}>
           <Typography
             variant="h4"

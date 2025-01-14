@@ -10,6 +10,8 @@ import coirPithBricks from '../assets/coir_pith_bricks.jpg';
 import coirPithBale from '../assets/coir_pith_bale.jpg';
 import coconutHuskChips from '../assets/coconut_husk_chips.jpg';
 import fibreBaling from '../assets/fibre_baling.jpg';
+import cocoChipsBag from '../assets/coco_chips_bag.jpg';
+import cocoPeatBag from '../assets/coco_peat_bag.jpg';
 
 const products = [
   {
@@ -77,6 +79,18 @@ const products = [
     description: 'High-quality fibre bales for industrial and agricultural use.',
     moreInfo: 'Processed to perfection, our fibre baling ensures durability and versatility for various applications.',
     image: fibreBaling,
+  },
+  {
+    name: 'Coco Chip Grow Bag',
+    description: 'Grow bags filled with high-quality coco chips.',
+    moreInfo: 'Coco chip grow bags offer excellent drainage and aeration, ideal for various crops and hydroponic systems.',
+    image: cocoChipsBag,
+  },
+  {
+    name: 'Coco Peat Grow Bag',
+    description: 'Grow bags filled with premium coco peat.',
+    moreInfo: 'Coco peat grow bags provide superior water retention and are perfect for a wide variety of plants and vegetables.',
+    image: cocoPeatBag,
   },
 ];
 
