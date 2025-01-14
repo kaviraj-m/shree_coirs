@@ -29,18 +29,25 @@ const DesignedBy = () => {
       >
         Designed By
       </Typography>
-      <Box
-        component="img"
-        src={designLogo}
-        alt="Design Logo"
-        sx={{
-          width: { xs: '220px', sm: '260px', md: '300px' }, 
-          height: 'auto',
-          mx: 'auto',
-          opacity: 0.95,
-          filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.1))',
-        }}
-      />
+      <a
+        href="https://www.cubeaisolutions.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ display: 'inline-block' }} 
+      >
+        <Box
+          component="img"
+          src={designLogo}
+          alt="Design Logo"
+          sx={{
+            width: { xs: '220px', sm: '260px', md: '300px' }, 
+            height: 'auto',
+            mx: 'auto',
+            opacity: 0.95,
+            filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.1))',
+          }}
+        />
+      </a>
       <Typography
         variant="body2"
         sx={{
