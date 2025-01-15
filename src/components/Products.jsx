@@ -12,6 +12,9 @@ import coconutHuskChips from '../assets/coconut_husk_chips.jpg';
 import fibreBaling from '../assets/fibre_baling.jpg';
 import cocoChipsBag from '../assets/coco_chips_bag.jpg';
 import cocoPeatBag from '../assets/coco_peat_bag.jpg';
+import puthBlocks from '../assets/puth_blocks.jpg';
+import openTop from '../assets/open_top.jpg';
+import cocoPith from '../assets/coco_pith.png';
 
 const products = [
   {
@@ -91,6 +94,24 @@ const products = [
     description: 'Grow bags filled with premium coco peat.',
     moreInfo: 'Coco peat grow bags provide superior water retention and are perfect for a wide variety of plants and vegetables.',
     image: cocoPeatBag,
+  },
+  {
+    name: 'Puth Blocks',
+    description: 'Premium quality Puth Blocks for agricultural needs.',
+    moreInfo: 'Puth Blocks offer durability and consistent quality for superior plant growth and sustainability.',
+    image: puthBlocks,
+  },
+  {
+    name: '25 Kg and 200 Liters Open Top',
+    description: 'Durable and spacious open-top containers for versatile use.',
+    moreInfo: 'Ideal for large-scale agriculture and storage needs, offering robust support and capacity in two sizes: 25 kg and 200 liters.',
+    image: openTop,
+  },
+  {
+    name: 'Coco Pith',
+    description: 'Premium quality coco pith for enhanced water retention.',
+    moreInfo: 'Perfect for hydroponics and soil conditioning, ensuring consistent growth and sustainability.',
+    image: cocoPith,
   },
 ];
 
