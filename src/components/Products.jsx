@@ -45,13 +45,13 @@ const products = [
     name: '5kg Coco Blocks',
     description: 'High-density blocks for consistent plant growth.',
     moreInfo: 'These compact blocks expand when hydrated, providing a sustainable and versatile growing medium.',
-    image: coinDisc,
+    image: puthBlocks,
   },
   {
     name: 'Coco Coins & Discs',
     description: 'Ideal for propagation and rooting with superior quality.',
     moreInfo: 'Perfect for nurseries and home gardening, coco coins and discs are easy to use and promote strong root development.',
-    image: cocoChips,
+    image: coinDisc,
   },
   {
     name: 'Grow Slab',
@@ -94,12 +94,6 @@ const products = [
     description: 'Grow bags filled with premium coco peat.',
     moreInfo: 'Coco peat grow bags provide superior water retention and are perfect for a wide variety of plants and vegetables.',
     image: cocoPeatBag,
-  },
-  {
-    name: 'Puth Blocks',
-    description: 'Premium quality Puth Blocks for agricultural needs.',
-    moreInfo: 'Puth Blocks offer durability and consistent quality for superior plant growth and sustainability.',
-    image: puthBlocks,
   },
   {
     name: '25 Kg and 200 Liters Open Top',

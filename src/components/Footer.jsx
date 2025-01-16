@@ -16,7 +16,6 @@ const Footer = () => {
       }}
     >
       <Grid container spacing={5} justifyContent="center">
-   
         <Grid item xs={12} sm={6} md={4}>
           <Typography
             variant="h4"
@@ -38,7 +37,6 @@ const Footer = () => {
           </Box>
         </Grid>
 
-       
         <Grid item xs={12} sm={6} md={4}>
           <Typography
             variant="h4"
@@ -89,13 +87,26 @@ const Footer = () => {
           >
             Address
           </Typography>
-          <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 1 }}>
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexDirection: { xs: 'column', sm: 'row' },
+              gap: 1,
+            }}
+          >
             <LocationOn sx={{ color: '#4caf50', fontSize: '24px' }} />
             <Typography
               variant="body2"
-              sx={{ fontSize: '16px', fontWeight: '500', lineHeight: 1.6 }}
+              sx={{
+                fontSize: '16px',
+                fontWeight: '500',
+                lineHeight: 1.6,
+                textAlign: { xs: 'center', sm: 'left' },
+              }}
             >
-              Thamaraipalayam, Tamil Nadu 638109
+              Thamaraipalayam, Erode, Tamil Nadu - 638152
             </Typography>
           </Box>
         </Grid>
@@ -103,7 +114,6 @@ const Footer = () => {
 
       <Divider sx={{ my: 4, backgroundColor: '#4caf50' }} />
 
-      
       <Box sx={{ mt: 3 }}>
         <Typography
           variant="body2"
