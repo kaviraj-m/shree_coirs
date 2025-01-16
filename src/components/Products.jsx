@@ -15,6 +15,7 @@ import cocoPeatBag from '../assets/coco_peat_bag.jpg';
 import puthBlocks from '../assets/puth_blocks.jpg';
 import openTop from '../assets/open_top.jpg';
 import cocoPith from '../assets/coco_pith.png';
+import cocopeatcoins from '../assets/cocopeatcoins.jpg'
 
 const products = [
   {
@@ -107,6 +108,11 @@ const products = [
     moreInfo: 'Perfect for hydroponics and soil conditioning, ensuring consistent growth and sustainability.',
     image: cocoPith,
   },
+  { 
+    name: 'Coco Peat Coins', 
+    description: 'Compact and efficient coco peat coins for optimal growth support.', 
+    moreInfo: 'Ideal for gardening, hydroponics, and seed starting, these coco peat coins expand when watered, providing excellent aeration and moisture retention.', 
+    image: cocopeatcoins },
 ];
 
 const Products = () => {
