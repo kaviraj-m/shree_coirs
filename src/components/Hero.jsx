@@ -113,7 +113,7 @@ const Hero = () => {
             }}
           >
             At <b>Shree Coirs</b>, we specialize in eco-friendly coir products like 
-            coco peat, coir fibers, and bio-grow solutions. Enhance your soil’s 
+            coco chips, coco peat and coir fibers. Enhance your soil’s 
             fertility and grow your harvest naturally with our premium-grade products.
           </Typography>
           <Button

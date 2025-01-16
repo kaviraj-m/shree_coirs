@@ -20,10 +20,10 @@ import cocopeatcoins from '../assets/cocopeatcoins.jpg'
 const products = [
   {
     name: '100% Coco Chips',
-    description: 'Improves aeration and drainage for healthy plant growth.',
-    moreInfo: 'Coco chips are great for orchids, hydroponics, and soil aeration, ensuring your plants have the perfect environment.',
+    description: 'Available in sizes: 4 to 12 mm, 8 to 16 mm, 10 to 20 mm, and 16 to 30 mm. Improves aeration and drainage for healthy plant growth.',
+    moreInfo: 'Available in sizes: 4 to 12 mm, 8 to 16 mm, 10 to 20 mm, and 16 to 30 mm, including 0.3 Lo EC coco chips for specialized needs. Coco chips are great for orchids, hydroponics, and soil aeration, ensuring your plants have the perfect environment.',
     image: cocoChips,
-  },
+  },  
   {
     name: '100% Coco Peat',
     description: 'High water retention and Low EC for better root development.',
@@ -31,11 +31,11 @@ const products = [
     image: cocoPeat,
   },
   {
-    name: 'Custom Coco Mix',
-    description: 'Perfect blend for all crops, available in 50:50, 60:40, and 70:30 ratios.',
-    moreInfo: 'Custom coco mixes provide a tailored solution for diverse crop needs, balancing aeration and water retention.',
+    name: 'Custom Coco Chips + Peat Mixing',
+    description: 'Perfect blend for all crops, offering all types of custom coco chips + peat mixing in 50:50, 60:40, and 70:30 ratios for Grow Bags, 5kg Blocks, Coins, and Discs.',
+    moreInfo: 'Custom coco mixes provide a tailored solution for diverse crop needs, balancing aeration and water retention. All types of coco chips and peat can be mixed in ratios of 50:50, 60:40, and 70:30 for applications such as Grow Bags, 5kg Blocks, Coins, and Discs, ensuring versatility and optimal plant growth.',
     image: cocoMix,
-  },
+  },  
   {
     name: 'Grow Bags',
     description: 'Durable grow bags for easy handling and growth support.',
@@ -73,12 +73,6 @@ const products = [
     image: coirPithBale,
   },
   {
-    name: 'Green Coconut Husk Chips',
-    description: 'Natural chips for soil aeration and mulch.',
-    moreInfo: 'Perfect for decorative mulch or plant support, green coconut husk chips enhance soil aeration and moisture levels.',
-    image: coconutHuskChips,
-  },
-  {
     name: '120Kg Fibre Baling',
     description: 'High-quality fibre bales for industrial and agricultural use.',
     moreInfo: 'Processed to perfection, our fibre baling ensures durability and versatility for various applications.',
@@ -108,11 +102,12 @@ const products = [
     moreInfo: 'Perfect for hydroponics and soil conditioning, ensuring consistent growth and sustainability.',
     image: cocoPith,
   },
-  { 
-    name: 'Coco Peat Coins', 
-    description: 'Compact and efficient coco peat coins for optimal growth support.', 
-    moreInfo: 'Ideal for gardening, hydroponics, and seed starting, these coco peat coins expand when watered, providing excellent aeration and moisture retention.', 
-    image: cocopeatcoins },
+  {
+    name: 'Coco Peat Grow Coins',
+    description: 'Ideal for propagation and rooting with superior quality.',
+    moreInfo: 'Perfect for nurseries and home gardening, coco peat grow coins are easy to use and promote strong root development.',
+    image: cocopeatcoins,
+  },
 ];
 
 const Products = () => {
