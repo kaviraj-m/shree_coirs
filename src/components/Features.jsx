@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import { Box, Typography, Grid, Card, CardContent } from '@mui/material';
 import EcoSVG from '../assets/eco.svg';
 import SettingsSVG from '../assets/settings.svg';
@@ -51,6 +51,11 @@ const Features = () => {
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
               sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                height: '100%', 
                 textAlign: 'center',
                 padding: 4,
                 boxShadow: '0px 6px 16px rgba(0, 0, 0, 0.1)',
@@ -67,7 +72,7 @@ const Features = () => {
                 alt={feature.title}
                 style={{ height: '72px', marginBottom: '20px' }}
               />
-              <CardContent>
+              <CardContent sx={{ flexGrow: 1 }}>
                 <Typography variant="h6" sx={{ fontWeight: 'bold', mb: 1, color: '#4caf50' }}>
                   {feature.title}
                 </Typography>
