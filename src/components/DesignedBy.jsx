@@ -27,7 +27,7 @@ const DesignedBy = () => {
           letterSpacing: '1px',
         }}
       >
-        Designed By
+        Designed And Developed By
       </Typography>
       <a
         href="https://www.cubeaisolutions.com/"
