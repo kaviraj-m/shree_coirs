@@ -15,7 +15,7 @@ import cocoPeatBag from '../assets/coco_peat_bag.jpg';
 import puthBlocks from '../assets/puth_blocks.jpg';
 import openTop from '../assets/open_top.jpg';
 import cocoPith from '../assets/coco_pith.png';
-import cocopeatcoins from '../assets/cocopeatcoins.jpg'
+import cocopeatcoins from '../assets/cocopeatcoins.jpg';
 
 const products = [
   {
@@ -142,6 +142,10 @@ const Products = () => {
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
               sx={{
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
                 borderRadius: '12px',
                 boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.1)',
                 transition: 'transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out',
