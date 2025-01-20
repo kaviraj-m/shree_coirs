@@ -7,8 +7,6 @@ import growBag from '../assets/grow_bag.jpg';
 import coinDisc from '../assets/coin_disc.jpg';
 import growSlab from '../assets/grow_slab.jpg';
 import coirPithBricks from '../assets/coir_pith_bricks.jpg';
-import coirPithBale from '../assets/coir_pith_bale.jpg';
-import coconutHuskChips from '../assets/coconut_husk_chips.jpg';
 import fibreBaling from '../assets/fibre_baling.jpg';
 import cocoChipsBag from '../assets/coco_chips_bag.jpg';
 import cocoPeatBag from '../assets/coco_peat_bag.jpg';
@@ -65,12 +63,6 @@ const products = [
     description: 'Compact bricks for convenient use.',
     moreInfo: 'These lightweight coir pith bricks are perfect for small-scale gardening, offering high water retention and nutrient absorption.',
     image: coirPithBricks,
-  },
-  {
-    name: '25Kg Coir-Pith Bale',
-    description: 'Bulk coir-pith bale for large-scale use.',
-    moreInfo: 'A sustainable solution for farms and nurseries, providing excellent soil conditioning and moisture retention.',
-    image: coirPithBale,
   },
   {
     name: '120Kg Fibre Baling',
