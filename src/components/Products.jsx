@@ -14,7 +14,7 @@ import puthBlocks from '../assets/puth_blocks.jpg';
 import openTop from '../assets/open_top.jpg';
 import cocoPith from '../assets/coco_pith.png';
 import cocopeatcoins from '../assets/cocopeatcoins.jpg';
-
+import coirboardGeoTextiles from '../assets/coirboardGeoTextiles.jpg';
 const products = [
   {
     name: '100% Coco Chips',
@@ -99,6 +99,12 @@ const products = [
     description: 'Ideal for propagation and rooting with superior quality.',
     moreInfo: 'Perfect for nurseries and home gardening, coco peat grow coins are easy to use and promote strong root development.',
     image: cocopeatcoins,
+  },
+  {
+    name: 'Coirboard Geo Textiles',
+    description: 'Eco-friendly and biodegradable geo textiles made from coconut fibers.',
+    moreInfo: 'Ideal for soil erosion control, landscaping, and agricultural applications, ensuring sustainability and environmental conservation.',
+    image: coirboardGeoTextiles,
   },
 ];
 
