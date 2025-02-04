@@ -15,7 +15,7 @@ const features = [
   },
   {
     title: 'Customizable Mix Ratios',
-    description: 'Our tailor-made coco coir mixes allow precise adjustments for crop-specific needs, offering ratios like 50:50, 60:40, and more.',
+    description: 'Our tailor-made coco chips and peat mixes allow precise adjustments for crop-specific needs, offering ratios like 50:50, 60:40, and more.',
     icon: SettingsSVG,
   },
   {

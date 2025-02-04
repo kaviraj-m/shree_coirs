@@ -13,15 +13,15 @@ const faqs = [
     answer: 'Yes, all our products maintain Low EC levels (0.3) to promote healthy plant growth.',
   },
   {
-    question: 'How long does the coco coir last?',
-    answer: 'Coco coir lasts for several growing cycles, depending on usage and maintenance. Typically, it lasts for 2-3 years.',
+    question: 'How long does the coco chips and peat last?',
+    answer: 'Coco chips and peat lasts for several growing cycles, depending on usage and maintenance. Typically, it lasts for 2-3 years.',
   },
   {
     question: 'Is the coco mix eco-friendly?',
     answer: 'Yes, all our coco coir products are sustainably sourced and biodegradable, ensuring minimal environmental impact.',
   },
   {
-    question: 'Can I use Coco Strong for hydroponics?',
+    question: 'Can I use Shree Coirs for hydroponics?',
     answer: 'Yes, our products are suitable for hydroponic systems, providing excellent aeration and moisture retention for optimal plant growth.',
   },
 ];

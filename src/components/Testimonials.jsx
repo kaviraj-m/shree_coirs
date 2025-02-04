@@ -6,7 +6,7 @@ import TestimonialSVG from '../assets/testimonial.svg';
 const testimonials = [
   {
     name: 'Arun Kumar',
-    feedback: 'The custom coco coir mixes have made a noticeable difference in my farm. The growth of my vegetables has been much better than before, especially in terms of root health and overall plant vitality.',
+    feedback: 'The custom coco chips and peat mixes have made a noticeable difference in my farm. The growth of my vegetables has been much better than before, especially in terms of root health and overall plant vitality.',
     avatar: 'https://picsum.photos/80/80?random=1',
   },
   {
