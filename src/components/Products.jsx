@@ -101,7 +101,7 @@ const products = [
     image: cocopeatcoins,
   },
   {
-    name: 'Coirboard Geo Textiles',
+    name: 'Coir Geo Textiles',
     description: 'Eco-friendly and biodegradable geo textiles made from coconut fibers.',
     moreInfo: 'Ideal for soil erosion control, landscaping, and agricultural applications, ensuring sustainability and environmental conservation.',
     image: coirboardGeoTextiles,
